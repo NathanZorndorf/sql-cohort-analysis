@@ -417,11 +417,17 @@ fig.savefig('Cohort Analysis of User Engagement, Months since Start.png')
 
 
 <br><br>
-**Notes**
-<br>
-As we can see, most of the cohorts increase in activity during the second month of their lifecycle, with the exception of the 2013/06 (June) cohort, which experiences a dip in activity. The May cohort experiences 2 months of growth before dropping off, where as the April cohort experiences 3 months of growth before dropping. Why are these cohorts dropping off?
-
 **Observations**
+<br>
+The majority of cohorts experience an increase in activity during the second month of their lifecycle, with the exception of the 2013/06 (June) cohort, which experiences a dip in activity. 
+
+- February cohort experience roughly 5 months of growth before a decline 
+- March cohort experiences 4 months of growth before a decline
+- The April cohort experiences 3 months of growth before a decline
+- The May cohort experiences 2 months of growth before a decline, 
+- The June cohort experiences 1 month of growth before a decline 
+
+When we write out the behavior of each cohort, we can see a pattern, but we can't really tell what's going on with this particular visualization. 
 <br>
 This plot let's us easily compare the relative course activity between cohort, but it does not allow us to easily see how the cohorts perform in terms of absolute time (actual months), only relative time (compared with when the cohort started).
 <br><br>Let's take a look at the absolute bar chart to see what's happening there. 
@@ -454,6 +460,8 @@ fig.savefig('Cohort Analysis of User Engagement, Absolute Months.png')
 <br>
 In this plot it is easier to view the activity of each cohort relative to the month that cohort was active. 
 <br><br>
+**Conclusions**
+<br>
 Here it is easy to see that in June, all cohorts have more active users, but in July, all cohorts experience a drop in active users. So the problem isn't something about the length of time of the cohorts, but instead the problem is due to either a change in the product in June, or circumstances external to the product that occurred in June. 
 
 
